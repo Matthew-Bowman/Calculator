@@ -1,2 +1,5 @@
 # odin-calculator
-A Web Calculator
+##A Web Calculator
+
+>To-Do List
+-Change Colours
