@@ -28,6 +28,23 @@ body {
     user-select: none;
 }
 
+.calculator .output {
+    flex-direction: column;
+}
+
+.calculator .output .top,
+.calculator .output .bottom {
+    margin: 0 8px;
+}
+
+.calculator .output .top {
+    align-self: flex-start;
+}
+
+.calculator .output .bottom {
+    align-self: flex-end;
+}
+
 .calculator *:hover {
     cursor: pointer;
     background: #ebebeb;
