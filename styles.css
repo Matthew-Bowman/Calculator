@@ -17,7 +17,7 @@ body {
     gap: 2px;
 }
 
-.calculator * {
+.calculator > * {
     display: flex;
     justify-content: center;
     align-items: center;
