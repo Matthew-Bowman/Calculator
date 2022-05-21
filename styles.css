@@ -46,14 +46,10 @@ body {
     align-self: flex-end;
 }
 
-.calculator *:hover {
-    cursor: pointer;
-    background: #ebebeb;
-}
-
 .output {
     grid-column: 1 / 5   ;
     grid-row: 1 / 2;
+    background: rgb(141, 170, 82);
 }
 
 .delete {
@@ -64,6 +60,21 @@ body {
 .clear {
     grid-column: 3 / 5;
     grid-row: 2 / 3;
+}
+
+.number {
+    background: #ebebeb;
+}
+
+.operator {
+    background: rgb(216, 216, 119);
+}
+
+.equals,
+.period,
+.delete,
+.clear {
+    background: #d6d6d6;
 }
 
 .number-zero {
