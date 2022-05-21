@@ -21,6 +21,13 @@ body {
 
     border: 1px solid black;
     border-radius: 4px;
+
+    user-select: none;
+}
+
+.calculator *:hover {
+    cursor: pointer;
+    background: #ebebeb;
 }
 
 .output {
