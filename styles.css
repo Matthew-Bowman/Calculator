@@ -30,6 +30,7 @@ body {
 
 .calculator .output {
     flex-direction: column;
+    overflow: hidden;
 }
 
 .calculator .output .top,
