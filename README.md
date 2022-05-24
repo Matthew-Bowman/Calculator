@@ -1,4 +1,4 @@
-# odin-calculator
+# Calculator
 ## A Web Calculator
 
 > To-Do List
