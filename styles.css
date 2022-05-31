@@ -41,6 +41,11 @@ body {
     user-select: none;
 }
 
+.calculator > *:hover{
+    cursor: pointer;
+    filter: brightness(95%);
+}
+
 .calculator .output {
     flex-direction: column;
     overflow: hidden;
