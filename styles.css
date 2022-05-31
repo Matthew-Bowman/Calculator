@@ -139,6 +139,11 @@ body {
     grid-row: 4 / 5;
 }
 
+.sign {
+    grid-column: 1 / 2;
+    grid-row: 7 / 8;
+}
+
 .period {
     grid-column: 3 / 4;
     grid-row: 7 / 8;
