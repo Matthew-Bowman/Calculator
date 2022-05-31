@@ -99,6 +99,11 @@ body {
     background: var(--equals);
 }
 
+.equals,
+.output {
+    color: var(--text-light);
+}
+
 .operator,
 .delete,
 .clear,
