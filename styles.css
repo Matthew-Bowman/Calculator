@@ -198,3 +198,10 @@ body {
     grid-column: 4 / 5;
     grid-row: 7 / 8;
 }
+
+@media only screen and (max-width: 450px) {
+    .calculator {
+        grid-template: repeat(7, 64px) / repeat(4, 64px);
+        font-size: 24px;
+    }
+}
