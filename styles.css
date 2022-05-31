@@ -56,7 +56,7 @@ body {
 .output {
     grid-column: 1 / 5   ;
     grid-row: 1 / 2;
-    background: rgb(141, 170, 82);
+    background: var(--output);
 }
 
 .delete {
@@ -70,18 +70,18 @@ body {
 }
 
 .number {
-    background: #ebebeb;
+    background: var(--numbers);
 }
 
-.operator {
-    background: rgb(216, 216, 119);
+.equals {
+    background: var(--equals);
 }
 
-.equals,
+.operator,
 .period,
 .delete,
 .clear {
-    background: #d6d6d6;
+    background: var(--symbols);
 }
 
 .number-zero {
