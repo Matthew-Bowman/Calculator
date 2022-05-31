@@ -169,6 +169,7 @@ body {
 }
 
 .period {
+    font-size: 8px;
     grid-column: 3 / 4;
     grid-row: 7 / 8;
 }
