@@ -1,8 +1,16 @@
 :root {
-    --numbers: #FFFFFF;
-    --symbols: #DDE3E6;
-    --output: #738B9B;
+    /* Page */
+    --background: #e5e9ec;
+    
+    /* Buttons */
+    --primary: #ffffff;
+    --secondary: #DDE3E6;
+    --output: #78909c;
     --equals: #FC6464;
+
+    /* Text */
+    --text-light: #ffffff;
+    --text-dark: #546e7a;
 }
 
 body {
@@ -10,6 +18,7 @@ body {
     align-items: center;
     justify-content: center;
     
+    background: var(--background);
     font-family: sans-serif;
     font-size: 24px;
 
@@ -71,8 +80,9 @@ body {
 }
 
 .number,
-.period {
-    background: var(--numbers);
+.period,
+.sign {
+    background: var(--primary);
 }
 
 .equals {
@@ -83,7 +93,7 @@ body {
 .delete,
 .clear,
 .clear-entry {
-    background: var(--symbols);
+    background: var(--secondary);
 }
 
 .number-zero {
