@@ -74,7 +74,8 @@ body {
     grid-row: 3 / 4;
 }
 
-.number {
+.number,
+.period {
     background: var(--numbers);
 }
 
@@ -83,9 +84,9 @@ body {
 }
 
 .operator,
-.period,
 .delete,
-.clear {
+.clear,
+.clear-entry {
     background: var(--symbols);
 }
 
