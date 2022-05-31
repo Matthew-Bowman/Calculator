@@ -21,7 +21,6 @@ body {
 .calculator {
     display: grid;
     grid-template: repeat(7, 64px) / repeat(4, 64px);
-    gap: 2px;
 }
 
 .calculator > * {
