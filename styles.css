@@ -1,3 +1,10 @@
+:root {
+    --numbers: #DDE3E6;
+    --symbols: #A0AFB7;
+    --output: #738B9B;
+    --equals: #FC6464;
+}
+
 body {
     display: flex;
     align-items: center;
